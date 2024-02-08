@@ -12,3 +12,6 @@
 #print - imprimir 
 
 
+#print("\n") comando para quebrar uma linha.
+#{} para inserir uma variavel qaulquer 
+#f e para formatar o texto inserido no projeto
