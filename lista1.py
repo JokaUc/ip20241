@@ -85,35 +85,58 @@
 #    quatro operações básicas entre estes dois números, adição,
 #    subtração,multiplicação e divisão. Ao final, o programa
 #    deve imprimir os resultados dos cálculos
+#print("\n")
 
-numero1 = float(input('digite num1: '))
-numero2 = float(input('digite num2: '))
-print(num1 + num2)
-print(num1 - num2)
-print(num1 * num2)
-print(num1 / num2)
+#numero1 = float(input('digite num1: '))
+#numero2 = float(input('digite num2: '))
+#soma = numero1 + numero2 
+#print("a soma é:" ,soma)
+#subtração = numero1 - numero2
+#print("a subtração é:" ,subtração)
+#divisão = numero1 / numero2
+#print("a divisão é:" ,divisão)
+#multiplicação = numero1 * numero2
+#print("a multiplicação é:" ,multiplicação)
 
-
-
-
-
-
-
-
+#print("\n")
 
   #print("--------------------------------------exe 10----------------------------------------")
 #12. Faça um programa que leia um número real e calcule o
 #    quadrado deste número. Ao final, o programa deve
 #    imprimir o resultado do cálculo.
 
+#print("\n")
+
+#def calcular_quadrado(numero):
+    #return numero ** 2
+
+#numero = float(input("Digite um número: "))
+#quadrado = calcular_quadrado(numero)
+#print("O quadrado de", numero, "é", quadrado)
+
+#print("\n")
+
   #print("--------------------------------------exe 10----------------------------------------")
 #13. Faça um programa que leia o saldo de uma conta poupança e
-#    imprima o novo saldo, considerando um reajuste de 2%.
+#imprima o novo saldo, considerando um reajuste de 2%.
+
+#print("\n")
+
+#def calcular_novo_saldo(saldo):
+#reajuste = saldo * 0.02
+#novo_saldo = saldo + reajuste
+#return novo_saldo
+
+#saldo_atual = float(input("Digite o saldo atual da conta poupança: "))
+#novo_saldo = calcular_novo_saldo(saldo_atual)
+
+#print("O novo saldo após o reajuste de 2% é:", novo_saldo)
+
+#print("\n")
 
   #print("--------------------------------------exe 10----------------------------------------")
 #14. Faça um programa que leia a base e a altura de um retângulo
-#    e imprima o perímetro (base + altura) e a área (base * altura).
-
+# e imprima o perímetro (base + altura) e a área (base * altura).
   #print("--------------------------------------exe 10----------------------------------------")
 #15. Faça um programa que leia o valor de um produto, o percentual
 #    do desconto desejado e imprima o valor do desconto e o valor
