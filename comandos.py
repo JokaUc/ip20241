@@ -14,6 +14,11 @@
 #atribuição ou seja recebendo nome = a 
 #type descobre o tipo da variavel(var)
 #float numeros reais 2.5 ou 2,5
+opcao = int(input('Questão a ser executada: '))
+match opcao:
+    case 1: q01()
+    case 2: q02()
+    case _: print('Opção Inválida!')
 
 
 
