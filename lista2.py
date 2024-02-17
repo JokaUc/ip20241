@@ -10,14 +10,11 @@
 #   Caso o valor somado seja maior que 20, este deverá ser apresentado
 #   somando-se a ele mais 8, caso o valor somado seja menor ou igual a
 #   20, este deverá ser apresentado subtraindo-se 5.
-#def:02
-numero1 = int(input('Digite o primeiro numero: '))
-numero2 = int(input('digite o segundo numero: '))
+#def:02 
 
-
-
-
-
+soma = 20 + 8  
+if soma > 20:
+    print(soma)
 
 #3. Faça um programa que leia um número e imprima uma das duas mensagens:
 #   "É múltiplo de 3"ou "Não é múltiplo de 3".
