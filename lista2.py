@@ -12,27 +12,86 @@
 #   20, este deverá ser apresentado subtraindo-se 5.
 #def:02 
 
-soma = 20 + 8  
-if soma > 20:
-    print(soma)
+#numero1 = int(input('Digite numero1:'))
+#numero2 = int(input('Digite numero2:'))
+#soma = numero1 + numero2
+#if soma > 20:
+    #print(f'A soma dos dois numeros é maior que 20 então soam - se com 8 sendo o resultado é: {soma + 8}')
+#else:
+    #print(f'a soma dos dois  numeros é menor ou igual a 20 então subtrae - se com 5 sendo que o resultado é: {soma - 5}')
+#def:03
 
 #3. Faça um programa que leia um número e imprima uma das duas mensagens:
-#   "É múltiplo de 3"ou "Não é múltiplo de 3".
+#  "É múltiplo de 3"ou "Não é múltiplo de 3".
+
+#def verifica_multiplo_de_tres(numero):
+    #if numero % 3 == 0:
+        #print("É múltiplo de 3")
+    #else:
+        #print("Não é múltiplo de 3")
+
+#numero = int(input("Digite um número inteiro: "))
+#verifica_multiplo_de_tres(numero)
+
 
 #4. Faça um programa que leia um número e informe se ele é ou não divisível por 5.
+#def04:
+#def verifica_divisibilidade_por_cinco(numero):
+    #if numero % 5 == 0:
+        #print("É divisível por 5")
+    #else:
+        #print("Não é divisível por 5")
+#numero = int(input("Digite um número inteiro: "))
+#verifica_divisibilidade_por_cinco(numero)
 
 #5. Faça um programa que leia um número e informe se ele é divisível por 3 e por 7.
+#def05:
+#def verifica_divisibilidade_por_3_e_7(numero):
+    #if numero % 3 == 0 and numero % 7 == 0:
+        #print("É divisível por 3 e por 7")
+    #else:
+        #print("Não é divisível por 3 e por 7")
+#numero = int(input("Digite um número inteiro: "))
+#verifica_divisibilidade_por_3_e_7(numero)
 
 #6. A prefeitura do Rio de Janeiro abriu uma linha de crédito para os funcionários
 #   estatutários. O valor máximo da prestação não poderá ultrapassar 30% do salário
 #   bruto. Faça um programa que permita entrar com o salário bruto
 #   e o valor da prestação e informar se o empréstimo pode ou não ser concedido.
+#def06:
+#def verificar_emprestimo(salario_bruto, prestacao):
+    #limite_prestacao = salario_bruto * 0.30
+    #if prestacao <= limite_prestacao:
+        #print("Empréstimo concedido!")
+    #else:
+        #print("Empréstimo não pode ser concedido. A prestação excede 30% do salário bruto.")
+#salario_bruto = float(input("Digite o salário bruto: "))
+#prestacao = float(input("Digite o valor da prestação: "))
+#verificar_emprestimo(salario_bruto, prestacao)
 
 #7. Faça um programa que leia um número e indique se o número está compreendido
 #   entre 20 e 50 ou não.
+#def07:
+#def verificar_intervalo(numero):
+    #if 20 <= numero <= 50:
+        #print("O número está compreendido entre 20 e 50.")
+    #else:
+        #print("O número não está compreendido entre 20 e 50.")
+#numero = float(input("Digite um número: "))
+#verificar_intervalo(numero)
 
 #8. Faça um programa que leia um número e imprima uma das mensagens:
 #   "Maior do que 20", "Igual a 20"ou "Menor do que 20".
+#def compara_numero(numero):
+#def08:
+    #if numero > 20:
+        #print("Maior do que 20")
+    #elif numero == 20:
+        #print("Igual a 20")
+    #else:
+        #print("Menor do que 20")
+#numero = float(input("Digite um número: "))
+#compara_numero(numero)
 
 #9. Faça um programa que permita entrar com o ano de nascimento da pessoa e com o
 #   ano atual. O programa deve imprimir a idade da pessoa. Não se esqueça de
