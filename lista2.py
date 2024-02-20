@@ -97,15 +97,61 @@
 #   ano atual. O programa deve imprimir a idade da pessoa. Não se esqueça de
 #   verificar se o ano de nascimento informado é válido.
 
+# dia = int(input('Digite seu dia de nascimento: '))
+# mes = int(input('Digite seu mes de nascimento: '))
+# ano = int(input('Digite seu ano de nascimento: ')) 
+
+# ano_atual = 2024
+
+# if (ano > ano_atual):
+#     print('ano digitado é maios que o ano atual')
+# else:
+#     idade = ano_atual - ano
+#     print(f'A sua idade é {idade}')
+ 
+
 #10. Faça um programa que leia três números inteiros e imprima os três em ordem
 #crescente.
 
 #11. Faça um programa que leia 3 números e imprima o maior deles.
 
+# numero1 = int(input('Digite numero1:'))
+# numero2 = int(input('Digite numero1:'))
+# numero3 = int(input('Digite numero1:'))
+
+# print(numero1, numero2, numero3)
+
+# if (numero1 > numero2) and (numero1 > numero3):
+#     print(f'{numero1} é maior numero')
+
+
+# elif (numero2 > numero1) and (numero2 > numero3):
+#     print(f'{numero2} é maior numero')
+
+    
+# elif (numero3 > numero1) and (numero3 > numero2):
+#     print(f'{numero3} é maior numero')
+
+
 #12. Faça um programa que leia a idade de uma pessoa e informe:
 #• Se é maior de idade
 #• Se é menor de idadea
 #• Se é maior de 65 anos
+
+idade = int(input('Qual é sua idade:'))
+
+if(idade > 65):
+    #• Se é maior de 65 anos
+    print('maior que 65 anos ')
+
+elif (idade >= 18):
+    #• Se é maior de idade
+    print('maior de idade ')
+
+elif (idade < 18):
+    #• Se é menor de idadea
+    print('menor de idade ')
+
 
 #13. Faça um programa que permita entrar com o nome, a nota da prova 1 e a nota
 #da prova 2 de um aluno. O programa deve imprimir o nome, a nota da prova 1,
@@ -120,6 +166,21 @@
 #Maior que R$600,00 e menor ou igual a R$1200,00 20%
 #Maior que R$1200,00 e menor ou igual a R$2000,00 25%
 #Maior que R$2000,00 30%
+
+salario = float(input('Digite seu salario: '))
+
+if (salario <= 600):
+
+   
+
+elif (salario > 600) and (salario <= 1200):
+
+     desconto = salario*20/100
+
+elif (salario > 1200) and (salario <= 2000):
+
+elif (salario > 2000):    
+
 
 #15. Um comerciante comprou um produto e quer vendê-lo com um lucro de 45% se o
 #valor da compra for menor que R$20,00, caso contrário, o lucro será de 30%.
