@@ -113,6 +113,12 @@
 #10. Faça um programa que leia três números inteiros e imprima os três em ordem
 #crescente.
 
+# primeiro = int(input('Digite primeiro:'))
+# segundo = int(input('Digite segundo:'))
+# terceiro = int(input('Digite terceiro:'))
+# numeros = [primeiro,segundo,terceiro]
+# print(numeros)
+
 #11. Faça um programa que leia 3 números e imprima o maior deles.
 
 # numero1 = int(input('Digite numero1:'))
@@ -138,26 +144,26 @@
 #• Se é menor de idadea
 #• Se é maior de 65 anos
 
-idade = int(input('Qual é sua idade:'))
+# idade = int(input('Qual é sua idade:'))
 
-if(idade > 65):
-    #• Se é maior de 65 anos
-    print('maior que 65 anos ')
+# if(idade > 65):
+#     #• Se é maior de 65 anos
+#     print('maior que 65 anos ')
 
-elif (idade >= 18):
-    #• Se é maior de idade
-    print('maior de idade ')
+# elif (idade >= 18):
+#     #• Se é maior de idade
+#     print('maior de idade ')
 
-elif (idade < 18):
-    #• Se é menor de idadea
-    print('menor de idade ')
+# elif (idade < 18):
+#     #• Se é menor de idadea
+#     print('menor de idade ')
 
 
 #13. Faça um programa que permita entrar com o nome, a nota da prova 1 e a nota
 #da prova 2 de um aluno. O programa deve imprimir o nome, a nota da prova 1,
 #a nota da prova 2, a média das notas e uma das mensagens: "Aprovado",
 #"Reprovado"ou "em Prova Final"(a média é 7 para aprovação, menor que 3 para
-#reprovação e as demais em prova final).
+#reprovação e as demais em prova final).;
 
 #14. Faça um programa que permita entrar com o salário de uma pessoa e imprima o
 #desconto do INSS segundo a tabela seguir:
@@ -167,24 +173,32 @@ elif (idade < 18):
 #Maior que R$1200,00 e menor ou igual a R$2000,00 25%
 #Maior que R$2000,00 30%
 
-salario = float(input('Digite seu salario: '))
+# salario = float(input('Digite seu salario: '))
 
-if (salario <= 600):
+# if (salario <= 600):
 
    
 
-elif (salario > 600) and (salario <= 1200):
+# elif (salario > 600) and (salario <= 1200):
 
-     desconto = salario*20/100
+#      desconto = salario*20/100
 
-elif (salario > 1200) and (salario <= 2000):
+# elif (salario > 1200) and (salario <= 2000):
 
-elif (salario > 2000):    
+# elif (salario > 2000): and (salario <= 2000): 
 
 
 #15. Um comerciante comprou um produto e quer vendê-lo com um lucro de 45% se o
 #valor da compra for menor que R$20,00, caso contrário, o lucro será de 30%.
 #Faça um programa que leia o valor do produto e imprima o valor da venda.
+
+# produto = float(input('Digite o valor da compra R$:'))
+
+# if 'valor_da_compra' < 20:
+#     lucro = 0.45
+# else:
+#     lucro = 0.30
+#     print(f'O valor da compra é ')
 
 #16. A confederação brasileira de natação irá promover eliminatórias para o
 #próximo mundial. Faça um programa que receba a idade de um nadador e imprima
