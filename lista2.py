@@ -165,6 +165,28 @@
 #"Reprovado"ou "em Prova Final"(a média é 7 para aprovação, menor que 3 para
 #reprovação e as demais em prova final).;
 
+# nome = str(input('Digite seu nome:'))
+# print("\n")
+# nota1 = float(input('Digite sua nota1:'))
+# print("\n")
+# nota2 = float(input('Digite sua nota2:'))
+# print("\n")
+# media = (nota1 + nota2) / 2
+# print("\n")
+# print(f'{nome}: SUA NOTA DA PROVA1 É : {nota1} SUA NOTA DA PROVA 2 É : {nota2} SUA MEDIA É : {media}')
+# print("\n")
+# if (media >=7):
+#     print("\n")
+#     print('APROVADO!!!')
+#     print("\n")
+# elif(media <= 3):
+#     print("\n")
+#     print('Reprovado')
+#     print("\n")
+# else:
+    
+#     print('REPROVADO!!!')
+
 #14. Faça um programa que permita entrar com o salário de uma pessoa e imprima o
 #desconto do INSS segundo a tabela seguir:
 #Salário Faixa de Desconto
@@ -283,4 +305,3 @@
 #Índice Indústrias que receberão intimação
 #0,3 1º grupo
 #0,4 1º e 2º grupos
-#0,5 1º, 2º e 3º grupos
