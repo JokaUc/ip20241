@@ -232,6 +232,18 @@
 #Juvenil B 14 - 17 anos
 #Sênior maiores de 18 anos
 
+# idade = int(input('Digite a idade:'))
+# if idade <= 5 and idade <=7:
+#     print(idade)
+# if idade <= 8 and idade <=10:
+#     print(idade)
+# if idade <= 11 and idade <=13:
+#     print(idade)
+# if idade <=14 and idade <=17:
+#     print(idade)
+# if idade >18:
+#     print(idade)
+
 #17. Depois da liberação do governo para as mensalidades dos planos de saúde,
 #as pessoas começaram a fazer pesquisas para descobrir um bom plano, não
 #muito caro. Um vendedor de um plano de saúde apresentou a tabela a seguir.
@@ -245,9 +257,27 @@
 #Acima de 59 até 65 anos R$250,00
 #Maior que 65 anos R$400,00
 
+# nome = str(input('Digite nome:'))
+# idade = int(input('Digite idade:'))
+# if idade <=10:
+#     print(idade)
+# if idade <= 29:
+#     print(idade)
+# if idade <= 45:
+#     print(idade)
+# if idade <= 59:
+#     print (idade)
+# if idade <= 65:
+#     print(idade)
+
 #18. Faça um programa que leia um número inteiro entre 1 e 12 e escreva o mês
 #correspondente. Caso o usuário digite um número fora desse intervalo, deverá
 #aparecer uma mensagem informando que não existe mês com este número.
+
+numero = int(input('Digite numero:'))
+mes = str(input('Digite o mes: ')) 
+meses = numero + mes / 12
+print(meses)
 
 #19. Em um campeonato nacional de arco-e-flecha, tem-se equipes de três jogadores
 #para cada estado. Sabendo-se que os arqueiros de uma equipe não obtiveram o
