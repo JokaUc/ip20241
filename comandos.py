@@ -57,3 +57,13 @@
 # elif sempre vai no meio dos dois comandos if e else
 
 # else
+# def q09(): chamar questao 
+
+# from datetime import date, datetime
+# TODAY = recurso
+# strip upper
+
+#abrir interpretador python3 e ente: 
+# ctrl + d sair do interpretador:
+
+
