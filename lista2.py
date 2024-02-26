@@ -274,10 +274,10 @@
 #correspondente. Caso o usuário digite um número fora desse intervalo, deverá
 #aparecer uma mensagem informando que não existe mês com este número.
 
-numero = int(input('Digite numero:'))
-mes = str(input('Digite o mes: ')) 
-meses = numero + mes / 12
-print(meses)
+# numero = int(input('Digite numero:'))
+# mes = str(input('Digite o mes: ')) 
+# meses = numero + mes / 12
+# print(meses)
 
 #19. Em um campeonato nacional de arco-e-flecha, tem-se equipes de três jogadores
 #para cada estado. Sabendo-se que os arqueiros de uma equipe não obtiveram o
@@ -287,6 +287,29 @@ print(meses)
 #• Mostrar esses valores em ordem decrescente;
 #• Se a soma dos pontos for maior do que 100, imprimir a média aritmética entre eles,
 #  caso contrário, imprimir a mensagem "Equipe desclassificada".
+
+# if jogador1 > jogador2 and jogador1  > jogador3:
+
+#     print(f"{jogador1},{jogador2},{jogador3}")
+
+# elif jogador2 > jogador1 and jogador2  > jogador3:
+
+#     print(f"{jogador2},{jogador1},{jogador3}")  
+
+# elif jogador3 > jogador1 and jogador3  > jogador2:
+
+#     print(f"{jogador3},{jogador2},{jogador1}")
+
+# if   jogador1 + jogador2 + jogador3 > 100:
+
+#     soma = jogador1 + jogador2 + jogador3 / 3 
+
+#     print(f"A media aritimetica é {soma}")
+
+# else:
+
+#     print("equipe desclassificada{jogador1},{jogador2},{jogador3}")
+
 
 #20. O banco XXX concederá um crédito especial com juros de 2% aos seus clientes de
 #acordo com o saldo médio no último ano. Faça um programa que leia o saldo médio
@@ -299,6 +322,30 @@ print(meses)
 #de 1001 a 3000 40% do valor do saldo médio
 #acima de 3001 50% do valor do saldo médio
 
+# saldo_medio = float(input('Digite saldo medio:')) 
+
+# if saldo_medio >= 0 and saldo_medio <= 500:
+
+#     valor_credito = 0
+
+# elif 501 <= saldo_medio <= 1000:
+
+#     valor_credito = 0.3 
+
+# elif 1001 <= saldo_medio <= 3000:
+
+#     valor_credito = 0.4
+
+# else: 
+
+#     valor_credito = 0.5
+
+# valor_credito = saldo_medio * valor_credito 
+
+# print(f"saldo medio é {saldo_medio}")
+
+# print(f"valor do credito é {valor_credito}")
+
 #21. A biblioteca de uma Universidade deseja fazer um programa que leia o nome do
 #livro que será emprestado, o tipo de usuário (professor ou aluno) e possa
 #imprimir um recibo conforme mostrado a seguir. Considerar que o professor
@@ -307,9 +354,55 @@ print(meses)
 #• Tipo de usuário:
 #• Total de dias:
 
+# def imprimir_recibo(nome_livro, tipo_usuario):
+#     if tipo_usuario.lower() == "professor":
+#         total_dias = 10
+#     elif tipo_usuario.lower() == "aluno":
+#         total_dias = 3
+#     else:
+#         print("Tipo de usuário inválido.")
+#         return
+
+#     print("\nRecibo:")
+#     print("Nome do livro:", nome_livro)
+#     print("Tipo de usuário:", tipo_usuario)
+#     print("Total de dias para devolução:", total_dias)
+
+
+# nome_livro = input("Digite o nome do livro: ")
+# tipo_usuario = input("Digite o tipo de usuário (professor ou aluno): ")
+
+
+# imprimir_recibo(nome_livro, tipo_usuario)
+
 #22. Construa um programa que leia o percurso em quilômetros, o tipo do carro e
 #informe o consumo estimado de combustível, sabendo-se que um carro tipo A faz
 #12 km com um litro de gasolina, um tipo B faz 9 km e o tipo C 8 km por litro.
+
+# def calcular_consumo(percurso, tipo_carro):
+#     consumo = 0
+#     if tipo_carro.upper() == "A":
+#         consumo = percurso / 12
+#     elif tipo_carro.upper() == "B":
+#         consumo = percurso / 9
+#     elif tipo_carro.upper() == "C":
+#         consumo = percurso / 8
+#     else:
+#         print("Tipo de carro inválido.")
+#         return
+
+#     return consumo
+
+
+# percurso_km = float(input("Digite o percurso em quilômetros: "))
+# tipo_carro = input("Digite o tipo do carro (A, B ou C): ")
+
+
+# consumo_estimado = calcular_consumo(percurso_km, tipo_carro)
+
+
+# if consumo_estimado:
+#     print("Consumo estimado de combustível:", consumo_estimado, "litros")
 
 #23. Crie um programa que informe a quantidade total de calorias de uma refeição
 #a partir da escolha do usuário que deverá informar o prato, a sobremesa, e
@@ -320,11 +413,48 @@ print(meses)
 #Frango 250cal  Mousse diet 170cal  Suco de melão 100cal
 #Carne 350cal   Mousse chocolate 200cal Refrigerante diet 65cal
 
+
+# tabela_calorias = {
+#     "Vegetariano": {"prato": 180, "sobremesa": 75, "bebida": 20},
+#     "Peixe": {"prato": 230, "sobremesa": 110, "bebida": 70},
+#     "Frango": {"prato": 250, "sobremesa": 170, "bebida": 100},
+#     "Carne": {"prato": 350, "sobremesa": 200, "bebida": 65}
+# }
+
+
+# prato = input("Escolha o prato (Vegetariano, Peixe, Frango, Carne): ")
+# sobremesa = input("Escolha a sobremesa (Abacaxi, Sorvete diet, Mousse diet, Mousse chocolate): ")
+# bebida = input("Escolha a bebida (Chá, Suco de laranja, Suco de melão, Refrigerante diet): ")
+
+
+# if prato in tabela_calorias and sobremesa in tabela_calorias[prato] and bebida in tabela_calorias[prato]:
+#     total_calorias = tabela_calorias[prato]["prato"] + tabela_calorias[prato]["sobremesa"] + tabela_calorias[prato]["bebida"]
+#     print("A quantidade total de calorias da refeição é:", total_calorias)
+# else:
+#     print("Opção inválida. Por favor, escolha uma combinação válida de prato, sobremesa e bebida.")
+
+
 #24. A polícia rodoviária resolveu fazer cumprir a lei e vistoriar veículos para
 #cobrar dos motoristas o DUT. Sabendo-se que o mês em que o emplacamento do
 #carro deve ser renovado é determinado pelo último número da placa do mesmo,
 #faça um programa que, a partir da leitura da placa do carro, informe o mês
 #em que o emplacamento deve ser renovado.
+
+# def obter_mes_renovacao(placa):
+#     ultimo_numero = int(placa[-1])
+#     meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"]
+#     mes_renovacao = meses[(ultimo_numero - 1) % 12]
+#     return mes_renovacao
+
+
+# placa = input("Digite o número da placa do carro: ")
+
+
+# if placa.isdigit() and len(placa) == 7:  
+#     mes_renovacao = obter_mes_renovacao(placa)
+#     print("O emplacamento do carro deve ser renovado em", mes_renovacao)
+# else:
+#     print("Placa inválida. Por favor, digite a placa corretamente (formato: ABC1D23).")
 
 #25. A prefeitura contratou uma firma especializada para manter os níveis de
 #poluição considerados ideais para um país do 1º mundo. As indústrias,
@@ -335,3 +465,18 @@ print(meses)
 #Índice Indústrias que receberão intimação
 #0,3 1º grupo
 #0,4 1º e 2º grupos
+
+# def verificar_intimacao(indice):
+#     if indice > 0.4:
+#         print("Intimação para todas as indústrias dos 1º, 2º e 3º grupos")
+#     elif indice > 0.3:
+#         print("Intimação para todas as indústrias dos 1º e 2º grupos")
+#     elif indice > 0.25:
+#         print("Intimação para todas as indústrias do 1º grupo")
+#     else:
+#         print("Nenhuma intimação necessária")
+
+# indice = float(input("Digite o índice de poluição: "))
+
+
+# verificar_intimacao(indice)
