@@ -66,4 +66,12 @@
 #abrir interpretador python3 e ente: 
 # ctrl + d sair do interpretador:
 
+# comando if modelo
+
+# exemplo if idade  <= 18:
+
+# exemplo elif idade <= 18:
+
+# exemplo else:
+#     print("sacbb")
 
