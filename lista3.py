@@ -57,13 +57,7 @@ Lista de Exercícios referentes a estruturas de iteração (repetição)
 #sucessivas, crie um programa que calcule o produto de dois números inteiros
 #lidos. Suponha que os números lidos sejam positivos.
 
-# for x in range (2):
 
-# numero1 = int(input("Digite numero1: "))
-
-# numero2 = int(input("Digite numero2: "))
-
-# produto = numero1 * numero2
 
 
 
