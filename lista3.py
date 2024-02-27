@@ -57,14 +57,12 @@ Lista de Exercícios referentes a estruturas de iteração (repetição)
 #sucessivas, crie um programa que calcule o produto de dois números inteiros
 #lidos. Suponha que os números lidos sejam positivos.
 
+#def q05():
 
+# numeros = [2*4 + 3*4]
 
-
-
-
-
-
-
+# for n in numeros:
+#     print(f"A soma dos produto é:{numeros}")
 
 
 #6. Crie um programa que imprima os 20 primeiros termos da série de Fibonacci.
@@ -72,6 +70,13 @@ Lista de Exercícios referentes a estruturas de iteração (repetição)
 #a partir da soma dos anteriores. Exemplo:
 #• 1 + 1 = 2, terceiro termo;
 #• 1 + 2 = 3, quarto termo, etc.
+
+#def q06():
+
+# for i in range():
+#     print(i)
+
+
 
 #7. Crie um programa que permita entrar com o nome, a nota da
 #prova 1 e da prova 2 de 15 alunos. Ao final, imprimir uma listagem, contendo:
