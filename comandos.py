@@ -75,3 +75,13 @@
 # exemplo else:
 #     print("sacbb")
 
+# def verificar_tipo(x):
+#     match x:
+#         case int():
+#             print("x é um número inteiro")
+#         case str():
+#             print("x é uma string")
+#         case list():
+#             print("x é uma lista")
+#         case _:
+#             print("Tipo não reconhecido")
