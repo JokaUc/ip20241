@@ -4,6 +4,8 @@ Lista de Exercícios referentes a estruturas de iteração (repetição)
 
 #1.Faça um programa que imprima todos os números de 1 até 100.
 
+#def q01():
+
 # for c in range(1,101):
 
 #     print(c)
@@ -12,6 +14,8 @@ Lista de Exercícios referentes a estruturas de iteração (repetição)
 
 #2. Faça um programa que imprima todos os números pares de 100 até 1.
 
+#def q02():
+
 # for  numero in range(100, 0, -1):
     
 #     if numero % 2 == 0:
@@ -19,13 +23,55 @@ Lista de Exercícios referentes a estruturas de iteração (repetição)
 
 #3. Faça um programa que imprima os múltiplos de 5, no intervalo de 1 até 500.
 
+#def q03():
+
+# for  numero in range(500,0,-1):
+#     print(numero, end = " ")
+#     if numero % 5 == 0:
+#          print(numero)
+
 #4. Faça umprograma que permita entrar com o nome, a idade e o sexo de 20
 #pessoas.O programa deve imprimir o nome da pessoa se ela for do sexo masculino
 #e tiver mais de 21 anos.
 
+#def q04():
+
+# lista = ""
+
+# for x in range (20):
+
+#     nome = str(input("Digite nome: "))
+
+#     sexo = str(input("Digite sexo: "))
+
+#     idade = float(input("Digite idade: "))
+
+#     if sexo == "m" and idade < 21:
+#         print(f"nome da pessoa é:{nome}")
+#         lista += nome + '\n'
+#     else:
+#         print(f"menor de idade: ")
+
+
 #5. Sabendo-se que a unidade lógica e aritmética calcula o produto através de somas
 #sucessivas, crie um programa que calcule o produto de dois números inteiros
 #lidos. Suponha que os números lidos sejam positivos.
+
+# for x in range (2):
+
+# numero1 = int(input("Digite numero1: "))
+
+# numero2 = int(input("Digite numero2: "))
+
+# produto = numero1 * numero2
+
+
+
+
+
+
+
+
 
 #6. Crie um programa que imprima os 20 primeiros termos da série de Fibonacci.
 #Observação: os dois primeiros termos desta série são 1 e 1 e os demais são gerados
