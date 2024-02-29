@@ -73,15 +73,38 @@ Lista de Exercícios referentes a estruturas de iteração (repetição)
 
 #def q06():
 
-# for i in range():
-#     print(i)
+# numeros = [ 1+1,1+2,2+2,2+3,3+3,3+4,4+4,4+5,5+5,10+1+10+2,10+3,10+4,10+5,10+6,10+7,10+8,10+9,10+10]
 
+# for n in numeros:
+#    print(n)
 
 
 #7. Crie um programa que permita entrar com o nome, a nota da
 #prova 1 e da prova 2 de 15 alunos. Ao final, imprimir uma listagem, contendo:
 #nome, nota da prova 1, nota da prova 2, e média das notas de cada aluno. Ao final,
 #imprimir a média geral da turma.
+
+#def q07():
+
+# soma = 0
+
+# for x in range(2):
+        
+#     nome = str(input("Digite um nome: "))
+
+#     nota_prova1 = float(input("Digite nota_prova1: "))
+
+#     nota_prova2 = float(input("Digite nota_prova2: "))
+
+#     media = (nota_prova1 + nota_prova2) / 2
+
+#     soma = soma + media 
+
+#     print(f"A nota da prova1 é {nota_prova1} e a nota de prova 2 é {nota_prova2} sendo a sua media: {media}")
+
+# mediageral = soma / 3
+
+# print(f"A media geral de turma é : {mediageral}")
 
 #8. Faça umprograma que permita entrar com o nome e o salário bruto de 10 pessoas.
 #Após ler os dados, imprimir o nome e o valor da alíquota do imposto de renda
@@ -90,6 +113,34 @@ Lista de Exercícios referentes a estruturas de iteração (repetição)
 #Salário menor que R$1300,00 Isento
 #Salário maior ou igual a R$1300,00 e menor que R$2300,00 10% do salário bruto
 #Salário maior ou igual a R$2300,00 15% do salário bruto
+soma = 0
+
+for x in range(2):
+
+    nome = str(input("Digite seu nome:" ))
+
+    sálario = float(input("Digite seu sálario:" ))
+
+    if sálario < 1300:
+
+        print(sálario)
+        print("voce esta isento")
+
+    elif sálario >=  1300 and sálario<=2300:
+
+        print(sálario)
+        
+
+    elif sálario >= 2300:
+
+        print(sálario)
+
+
+
+
+
+
+
 
 #9. No dia da estréia do filme "Procurando Dory", uma grande emissora de TV realizou
 #uma pesquisa logo após o encerramento do filme. Cada espectador respondeu
