@@ -113,34 +113,26 @@ Lista de Exercícios referentes a estruturas de iteração (repetição)
 #Salário menor que R$1300,00 Isento
 #Salário maior ou igual a R$1300,00 e menor que R$2300,00 10% do salário bruto
 #Salário maior ou igual a R$2300,00 15% do salário bruto
-soma = 0
 
-for x in range(2):
-
-    nome = str(input("Digite seu nome:" ))
-
-    sálario = float(input("Digite seu sálario:" ))
-
-    if sálario < 1300:
-
-        print(sálario)
-        print("voce esta isento")
-
-    elif sálario >=  1300 and sálario<=2300:
-
-        print(sálario)
-        
-
-    elif sálario >= 2300:
-
-        print(sálario)
+#def q07():
 
 
+# for i in range(3):
+    
+#     nome = str(input("Digite seu nome: "))
+#     salario = float(input("Digite seu salario: "))
 
+#     if salario < 1300:
+#         print("isento")
 
+#     elif salario >= 1300:
+#         print(1300 * 10/100)
+    
+#     elif salario < 2300:
+#         print(2300 * 10/100)
 
-
-
+#     elif salario >= 2300:
+#         print(2300 *10/100," valor da aliquicota é" )
 
 #9. No dia da estréia do filme "Procurando Dory", uma grande emissora de TV realizou
 #uma pesquisa logo após o encerramento do filme. Cada espectador respondeu
@@ -151,6 +143,9 @@ for x in range(2):
 #• A quantidade de pessoas que responderam regular;
 #• A percentagem de pessoas que responderam bom entre todos os expectadores
 #analisados.
+
+
+
 
 #10. Em um campeonato Europeu de Volleyball, se inscreveram 30 países. Sabendo-se
 #que na lista oficial de cada país consta, além de outros dados, peso e idade de 12
