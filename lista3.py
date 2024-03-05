@@ -144,18 +144,48 @@ Lista de Exercícios referentes a estruturas de iteração (repetição)
 #• A percentagem de pessoas que responderam bom entre todos os expectadores
 #analisados.
 
+#def q09():
 
-
-
+# def q09():
+#     qtdePessoasExcelente = 0
+#     somaIdadeExcelente = 0
+#     qtdePessoasRegular = 0
+#     qtdePessoasBom = 0
+#     qtdeTotalPessoas = int(input('Número de Pessoas: '))
+#     for x in range(qtdeTotalPessoas):
+#         idade = int(input('Idade: '))
+#         opiniao = int(input('Opinião ([3]-Excelente - [2]-Bom - [1]-Regular): '))
+#         match(opiniao):
+#             case 1: qtdePessoasRegular += 1
+#             case 2: qtdePessoasBom += 1
+#             case 3:
+#                 qtdePessoasExcelente +=1
+#                 somaIdadeExcelente += idade
+#             case _: print('Opção Inválida!')
+#     print(f'Média idade excelente: {somaIdadeExcelente/qtdePessoasExcelente}')
+#     print(f'Qtde de pessoas regular: {qtdePessoasRegular}')
+#     print(f'% de pessoas que responderam bom: {qtdePessoasBom/qtdeTotalPessoas*100}%')
+    
 #10. Em um campeonato Europeu de Volleyball, se inscreveram 30 países. Sabendo-se
 #que na lista oficial de cada país consta, além de outros dados, peso e idade de 12
 #jogadores, crie um programa que apresente as seguintes informações:
-#
 #• O peso médio e a idade média de cada um dos times;
 #• O atleta mais pesado de cada time;
 #• O atleta mais jovem de cada time;
 #• O peso médio e a idade média de todos os participantes.
-    
+
+#def q09():
+
+maispesado = 0
+maisjovem = 0
+somaidade = 0
+somapeso = 0
+for x in range(30):
+    for x in range(12):
+        peso = int(input('Digite peso:'))
+        idade = int(input('Digite idade:'))
+
+        
 #11. Construa um programa que leia vários números e informe quantos números
 #entre 100 e 200 foram digitados. Quando o valor 0 (zero) for lido, o algoritmo
 #deverá cessar sua execução.
