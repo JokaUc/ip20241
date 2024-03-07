@@ -176,19 +176,62 @@ Lista de Exercícios referentes a estruturas de iteração (repetição)
 
 #def q09():
 
-maispesado = 0
-maisjovem = 0
-somaidade = 0
-somapeso = 0
-for x in range(30):
-    for x in range(12):
-        peso = int(input('Digite peso:'))
-        idade = int(input('Digite idade:'))
+# maispesado = 90
+# maisjovem = 18
+# somaidade_media = 0
+# somapeso_medio = 0
+# peso_medio = 0
+# idademedia_todos = 0
+# for x in range(1):
+#     for x in range(1):
+#         peso = int(input('Digite peso:'))
+#         idade = int(input('Digite idade:'))
+# somapeso_todos = (maispesado * maisjovem) / 30
+# print(somapeso_todos)
+# print(f"A media dos 30 é:  {somapeso_todos}")
 
-        
 #11. Construa um programa que leia vários números e informe quantos números
 #entre 100 e 200 foram digitados. Quando o valor 0 (zero) for lido, o algoritmo
 #deverá cessar sua execução.
+
+#def q09():
+
+# def main():
+#     """
+#     Função principal que lê números e conta quantos estão entre 100 e 200.
+#     """
+    
+#     contagem = 0
+
+    
+#     numero = int(input("Digite um número (0 para sair): "))
+#     while numero != 0:
+    
+#         if 100 <= numero <= 200:
+        
+#         contagem += 1
+
+        
+#         numero = int(input("Digite um número (0 para sair): "))
+
+    
+#     print(f"Foram digitados {contagem} números entre 100 e 200.")
+
+
+#     if __name__ == "__main__":
+#     main()
+    
+        
+
+
+
+
+
+
+
+
+
+
 
 #12. Dado um país A, com 5 milhões de habitantes e uma taxa de natalidade de 3% ao
 #ano, e um país B com 7 milhões de habitantes e uma taxa de natalidade de 2% ao
