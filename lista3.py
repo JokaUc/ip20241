@@ -257,14 +257,33 @@ Lista de Exercícios referentes a estruturas de iteração (repetição)
 
 #def q13():
 
+# residencial = 0.3
+# comercial = 0.5
+# industrial = 0.7
+# numero_consumidor = int(input("Digite o numero do consumidor:"))
+# quantidade_kwh_mes = float(input("Digite a quantidade de kwh:"))
+# codigo_do_consumidor = int(input("Digite o codigo do consumidor:"))
+
 #14. Faça um programa que leia vários números inteiros e apresente o fatorial de cada
 #número. O algoritmo encerra quando se digita um número menor do que 1.n
+
+#def q14():
+
+# for x in range(2):
+#     fatorial = int(input("Digite um numero:"))
+#     fatorial = 1 * 1
+#     print(fatorial)
 
 #15. Faça um programa que permita entrar com a idade de várias pessoas e
 #imprima:
 #• total de pessoas com menos de 21 anos
 #• total de pessoas com mais de 50 anos
 
+#def q15():
+
+# for x in range(2):
+#     idade = int(input("Digite idade:"))
+    
 #16. Sabendo-se que a unidade lógica e aritmética calcula a divisão por meio de subtrações
 #sucessivas, criar um algoritmo que calcule e imprima o resto da divisão de
 #números inteiros lidos. Para isso, basta subtrair o divisor ao dividendo, sucessivamente,
@@ -278,6 +297,13 @@ Lista de Exercícios referentes a estruturas de iteração (repetição)
 #  5 é o Divisor
 #  2 é o Quociente (resultado inteiro da divisão)
 #  0 é o Resto da Divisão
+
+#def q16():
+
+
+
+
+
 
 #17. Crie um programa que possa ler um conjunto de pedidos de compra e
 #calcule o valor total da compra. Cada pedido é composto pelos seguintes campos:
