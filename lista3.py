@@ -299,12 +299,16 @@ Lista de Exercícios referentes a estruturas de iteração (repetição)
 #  0 é o Resto da Divisão
 
 #def q16():
-
-
-
-
-
-
+# for x in range(3):
+#     divisor = int(input("Digite o divisor:\n"))
+#     dividendo = int(input("Digite o dividendo:\n"))
+#     divisao = dividendo + divisor
+#     print("O valor da divisão é:" , divisao) 
+# if divisao <= 1000:
+#     print("divisao valida")
+# else:
+#     print("Divisao invalida")
+    
 #17. Crie um programa que possa ler um conjunto de pedidos de compra e
 #calcule o valor total da compra. Cada pedido é composto pelos seguintes campos:
 #• número de pedido
