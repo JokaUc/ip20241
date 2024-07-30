@@ -12,21 +12,22 @@
 #2. Faça um programa que armazene 10 letras em uma lista e imprima uma listagem
 #numerada.
 
-lista = list(input('')
-
-
-
-
-
-
-
-
-
-
-
+# lista = []
+# for x in range(5):
+#     print(lista)
 
 #3. Construa uma programa que armazene 15 números em uma lista e imprima
 #uma listagem numerada contendo o número e uma das mensagens: par ou ímpar.
+
+lista =
+
+
+
+
+
+
+
+
 
 #4. Faça um programa que armazene 8 números em uma lista e imprima todos os
 #números. Ao final, imprima o total de números múltiplos de seis.
