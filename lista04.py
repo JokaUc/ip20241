@@ -19,29 +19,36 @@
 #3. Construa uma programa que armazene 15 números em uma lista e imprima
 #uma listagem numerada contendo o número e uma das mensagens: par ou ímpar.
 
-lista =
-
-
-
-
-
-
-
-
+# lista = ['15','16','17',]
+# print(type(lista))
+# print(len(lista))
+# print(lista[3])
 
 #4. Faça um programa que armazene 8 números em uma lista e imprima todos os
 #números. Ao final, imprima o total de números múltiplos de seis.
+
+# colecao = ['joao','lucas','aline','jessica']
+# print(colecao)
+
+# colecao[1] = 'aline'
+# print(colecao)
 
 #5. Faça um programa que armazene as notas das provas 1 e 2 de 15 alunos. Calcule
 #e armazene a média arredondada. Armazene também a situação do aluno: 1-
 #Aprovado ou 2-Reprovado. Ao final o programa deve imprimir uma listagem
 #contendo as notas, a média e a situação de cada aluno em formato tabulado.
 #Utilize quantas listas forem necessárias para armazenar os dados.
+# for x in range(5):
+#     nota1 = float(input("Digite nota1!"))
+#     nota2 = float(input("Digite nota1!"))
 
 #6. Construa um programa que permita armazenar o salário de 20 pessoas. Calcular
 #e armazenar o novo salário sabendo-se que o reajuste foi de 8%. Imprimir uma
 #listagem numerada com o salário e o novo salário. Declare quantas listas forem
 #necessárias.
+# for x in range(10):
+#     lista = []
+#     print(lista)
 
 #7. Crie um programa que leia o preço de compra e o preço de venda de 100 mercadorias
 #(utilize listas). Ao final, o programa deverá imprimir quantas mercadorias
@@ -49,6 +56,12 @@ lista =
 #• lucro < 10%
 #• 10% <= lucro <= 20%
 #• lucro > 20%
+
+
+
+
+
+
 
 #8. Construa um programa que armazene o código, a quantidade, o valor de compra
 #e o valor de venda de 30 produtos. A listagem pode ser de todos os produtos ou
