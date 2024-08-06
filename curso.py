@@ -27,8 +27,24 @@
 #numero2 = int(input('Digite numeoro 2:'))
 #soma = numero1 + numero2
 #print('A soma entre {} e {} vale: {}' .format(numero1, numero2, soma ))
-n = (input('Digite um valor:'))
-print(type(n))
+
+# nome = "lucas"
+# idade = "29"
+# sexo = "masculino"
+
+# print(f"Olá seja bem vindo: {nome}\n Sua idade é: {idade}\n E seu sexo é: {sexo}\n Está coreto?\n")
+
+numero = int(input("Digite numero:"))
+print(numero)
+if(numero>=18):
+    print("Maior de idade:")
+elif(numero<=12):
+    print("Idade incorreta")
+else:
+    print("Menor de idade:")
+
+
+    
 
 
 
