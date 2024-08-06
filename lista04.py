@@ -3,52 +3,74 @@
 #permita que o usuário digite um número inteiro para ser buscado na lista, se
 #for encontrado o programa deve imprimir a posição desse número na lista, caso
 #contrário, deve imprimir a mensagem: "Nao encontrado!".
-
-#armazenar = []
-#for x in range(5):
-    #armazenar.append(input('digite um numero:'))
-    #print(armazenar)
+# def q01():
+#     lista = []
+#     for x in range(15):
+#         lista.append(random.randrange(100))
+#     print(lista)
+#     busca = int(input('Digite um número a ser localizado: '))
+#     try:
+#         posicao = lista.index(busca)
+#         print(f'Posição do número {busca}: {posicao}')
+#     except ValueError:
+#         print(f'Valor {busca} não existe na lista!')
 
 #2. Faça um programa que armazene 10 letras em uma lista e imprima uma listagem
 #numerada.
+# def q02():
+#     lista = []
+#     i = 0
+#     for x in range(10):
+#         lista.append(chr(random.randrange(65,91))) # ord() é o inverso de chr()
+#         print(f'{i}: {lista[i]}')
+#         i+=1
 
-# lista = []
-# for x in range(5):
-#     print(lista)
 
 #3. Construa uma programa que armazene 15 números em uma lista e imprima
 #uma listagem numerada contendo o número e uma das mensagens: par ou ímpar.
-
-# lista = ['15','16','17',]
-# print(type(lista))
-# print(len(lista))
-# print(lista[3])
-
+# def q03():
+#     lista = []
+#     for x in range(15):
+#         lista.append(random.randrange(100))
+#     i = 0
+#     for n in lista:
+#         print(f'{i+1}: {n} é {"PAR" if n%2==0 else "IMPAR"}')
+#         i+=1
 #4. Faça um programa que armazene 8 números em uma lista e imprima todos os
 #números. Ao final, imprima o total de números múltiplos de seis.
 
-# colecao = ['joao','lucas','aline','jessica']
-# print(colecao)
-
-# colecao[1] = 'aline'
-# print(colecao)
 
 #5. Faça um programa que armazene as notas das provas 1 e 2 de 15 alunos. Calcule
 #e armazene a média arredondada. Armazene também a situação do aluno: 1-
 #Aprovado ou 2-Reprovado. Ao final o programa deve imprimir uma listagem
 #contendo as notas, a média e a situação de cada aluno em formato tabulado.
 #Utilize quantas listas forem necessárias para armazenar os dados.
-# for x in range(5):
-#     nota1 = float(input("Digite nota1!"))
-#     nota2 = float(input("Digite nota1!"))
+# def q05():
+#     alunos = []
+#     for x in range(3):
+#         aluno = dict()
+#         aluno['nome'] = input('Nome: ')
+#         aluno['n1'] = float(input('Nota 1: '))
+#         aluno['n2'] = float(input('Nota 2: '))
+#         aluno['media'] = (aluno['n1'] + aluno['n2']) / 2
+#         aluno['situacao'] = 'APROVADO' if aluno['media']>=6 else 'REPROVADO'
+#         alunos.append(aluno)
+#     print('NOME\tN1\tN2\tMEDIA\tSITUACAO')
+#     for a in alunos:
+#         print(f'{a["nome"]}\t{a["n1"]}\t{a["n2"]}\t{a["media"]}\t{a["situacao"]}')
+# q05()
 
 #6. Construa um programa que permita armazenar o salário de 20 pessoas. Calcular
 #e armazenar o novo salário sabendo-se que o reajuste foi de 8%. Imprimir uma
 #listagem numerada com o salário e o novo salário. Declare quantas listas forem
 #necessárias.
-# for x in range(10):
-#     lista = []
-#     print(lista)
+# def q06():
+#     salario = []
+#     for x in range(20):
+#         salario = dict()
+#         salario['nome'] = input ('nome:')
+#         salario['n1'] =  float(input('Salario1:  '))
+#         salario['n2'] =  float(input('Salario2:  '))
 
 #7. Crie um programa que leia o preço de compra e o preço de venda de 100 mercadorias
 #(utilize listas). Ao final, o programa deverá imprimir quantas mercadorias
@@ -56,13 +78,7 @@
 #• lucro < 10%
 #• 10% <= lucro <= 20%
 #• lucro > 20%
-
-
-
-
-
-
-
+ 
 #8. Construa um programa que armazene o código, a quantidade, o valor de compra
 #e o valor de venda de 30 produtos. A listagem pode ser de todos os produtos ou
 #somente de um ao se digitar o código. Utilize dicionário como estrutura de dados.
