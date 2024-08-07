@@ -34,14 +34,29 @@
 
 # print(f"Olá seja bem vindo: {nome}\n Sua idade é: {idade}\n E seu sexo é: {sexo}\n Está coreto?\n")
 
-numero = int(input("Digite numero:"))
-print(numero)
-if(numero>=18):
-    print("Maior de idade:")
-elif(numero<=12):
-    print("Idade incorreta")
-else:
-    print("Menor de idade:")
+# dia = int(input("Digite o dia:"))
+# print(dia)
+
+# match  dia:
+#     case 1:
+#         print("Domigo")
+#     case 2:
+#         print("Segunda")
+#     case 3:
+#         print("Terça")
+#     case 4:
+#         print("Quarta")
+#     case 5:
+#         print("Quinta")
+#     case 5:
+#         print("Sexta")
+#     case 6:
+#         print("Dia invalido")
+    
+    
+
+
+
 
 
     
