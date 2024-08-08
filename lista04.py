@@ -78,22 +78,59 @@
 #• lucro < 10%
 #• 10% <= lucro <= 20%
 #• lucro > 20%
+# def q06():
+#     pessoas = []
+#     for _ in range(3):
+#         pessoa = dict()
+#         pessoa['nome'] = input('Nome: ')
+#         pessoa['salario'] = float(input('Salário: '))
+#         pessoa['salario_novo'] = pessoa['salario'] * 1.08
+#         pessoas.append(pessoa)
+    
+#     print('NOME\tSAL\t\tSAL_NOVO')
+#     for p in pessoas:
+#         print(f'{p["nome"]}\tR$ {p["salario"]}\tR$ {p["salario_novo"]}')
+# q06()
  
 #8. Construa um programa que armazene o código, a quantidade, o valor de compra
 #e o valor de venda de 30 produtos. A listagem pode ser de todos os produtos ou
 #somente de um ao se digitar o código. Utilize dicionário como estrutura de dados.
-        
+
+# codigo = int(input("Digite o codigo:"))
+# valor_venda = int(input("valor venda:"))
+# valor_compra = int(input("valor compra:"))
+# for x in range(30):
+#     print(codigo,valor_venda,valor_compra)
+
 #9. Faça um programa que leia dois conjuntos de números inteiros, tendo
 #cada um 10 elementos. Ao final o programa deve listar os elementos comuns aos
 #conjuntos.
+
+# numero1 = int(input("Digite numero1"))
+# numero2 = int(input("Digite numero2"))
+# for x in range(10):
+#     print(numero1,numero2)
 
 #10. Faça um programa que leia uma lista com 10 elementos e obtenha outra lista resultado
 #cujos valores são os fatoriais da lista original.
 #Imprimir o maior e o menor, sem ordenar, o percentual de números pares e a
 #média dos elementos da lista.
 
+# lista = int(input("Digite o valor:"))
+# elementos = int(input("Digite o valor:"))
+# for x in range(10):
+#     print(lista,elementos)
+
+
 #11. Imprimir o maior e o menor, sem ordenar, o percentual de números pares e a
 #média dos elementos da lista.
+
+media = int(input("Digite o valor:"))
+valor = int(input("Digite o valor:"))
+elementos = int(input("Digite um valor:"))for x in range:(10)
+print(media,valor,elementos)
+
+
 
 #12. Crie um programa para gerenciar um sistema de reservas de mesas em uma casa
 #de espetáculo. A casa possui 30 mesas de 5 lugares cada. O programa deverá
