@@ -125,10 +125,10 @@
 #11. Imprimir o maior e o menor, sem ordenar, o percentual de números pares e a
 #média dos elementos da lista.
 
-media = int(input("Digite o valor:"))
-valor = int(input("Digite o valor:"))
-elementos = int(input("Digite um valor:"))for x in range:(10)
-print(media,valor,elementos)
+# media = int(input("Digite o valor:"))
+# valor = int(input("Digite o valor:"))
+# elementos = int(input("Digite um valor:"))for x in range:(10)
+# print(media,valor,elementos)
 
 
 
@@ -140,6 +140,21 @@ print(media,valor,elementos)
 #emitir uma mensagem. O programa deve terminar quando o usuário digitar
 #o código 0 (zero) para uma mesa ou quando todos os 150 lugares estiverem
 #ocupados.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #13. Construa um programa que realize as reservas de passagens áreas de uma companhia.
 #O programa deve permitir cadastrar o número de 10 voos e definir a
@@ -176,3 +191,22 @@ print(media,valor,elementos)
 
 #20. Faça um programa que leia a matrícula e a média de 100 alunos. Ordene da maior
 #para a menor nota e imprima uma relação contendo todas as matrículas e médias.
+
+# import random
+# '''
+# Lista de Exercícios referentes a coleções em python
+# '''
+
+# def exemploArquivo():
+#     print('Dados já existentes no arquivo: ')
+#     arquivo = open('dados.dat', 'r')
+#     for linha in arquivo:
+#         print(linha.strip())
+#     arquivo.close()
+
+#     arquivo = open('dados.dat','a')
+#     for _ in range(3):
+#         arquivo.write(input('Nome: ')+'\n')
+#     arquivo.close()
+
+# exemploArquivo()
