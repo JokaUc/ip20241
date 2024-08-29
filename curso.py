@@ -58,7 +58,7 @@ from colorama import Fore, Style, init
 equipamentos = []
 
 def cadastrar_equipamento():
-    nome = input("Digite o nome do equipamento: ")
+    nome = input(Fore.BLUE +"Digite o nome do equipamento: ")
     tipo = input("Digite o tipo de equipamento (Computador, Dispositivo de Rede, etc.): ")
     descricao = input("Digite uma breve descrição do equipamento: ")
     equipamento = {
@@ -70,7 +70,7 @@ def cadastrar_equipamento():
     print("Equipamento cadastrado com sucesso!")
 
 def buscar_equipamento():
-    nome = input(Fore.BLUE +"Digite o nome do equipamento que deseja buscar: ")
+    nome = input("Digite o nome do equipamento que deseja buscar: ")
     for equipamento in equipamentos:
         if equipamento["nome"].lower() == nome.lower():
             print(f"Nome: {equipamento['nome']}")
@@ -93,7 +93,7 @@ def gerar_relatorio():
 
 def menu():
     while True:
-        print("\n1. Cadastrar Equipamento")
+        print(Fore.BLUE +"\n1. Cadastrar Equipamento")
         print("2. Buscar Equipamento")
         print("3. Gerar Relatório")
         print("4. Sair")
@@ -106,7 +106,7 @@ def menu():
         elif opcao == "3":
             gerar_relatorio()
         elif opcao == "4":
-            print("Saindo do programa...")
+            print("Programa Encerrado!!!")
             break
         else:
             print("Opção inválida. Tente novamente.")
